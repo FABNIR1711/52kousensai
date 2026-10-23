@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+main{
+    background-image:url(../../assets/images/Unknown-3-2.png);
+    width: 100%;
+    padding-bottom: 5%;
+    box-sizing: border-box; 
+    *{
+        color:#cbc0be;
+    }
+}
+body{
+    font-family:  "Sawarabi Gothic", serif;
+    margin:0;
+}
+.main-video,.manual-video{
+    display:block;
+    width: 100%;
+    padding:5%;
+    padding-top:5%;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+h1 img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 5%;
+}
+h2{
+    padding:10px;
+    font-family:   "Henny Penny", serif;
+}
+.sotogawa{
+    text-align: center;
+}
+p{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+ul{
+    text-align: left;
+    padding-left:20%;
+    padding-right: 15%;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:url(../../assets/images/Unknown-3-2.png);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading__contents {
+  text-align: center;
+}
+
+.loading__text {
+  font-family: "New Tegomin", serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #D0BEBD;
+  writing-mode: vertical-rl;
+  span{
+    font-size:50px;
+    color:#84211A;
+  }
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    p{
+        font-size: 15px;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+    h1,h2,h3,p{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    ul{
+        padding-left: 1.5em;
+        margin-left: 0;
+        padding-right: 2%;
+    }
+    ul li{
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+    }
+
+    .loading__text {
+        font-size: 30px;
+        span{
+            font-size:40px;
+        }
+    }
+    .sp{
+        display:none;
+    }
+    .main-video,.manual-video{
+    display:block;
+    width: 100%;
+    padding:0%;
+    padding-top:3%;
+    box-sizing: border-box;
+}
+}
